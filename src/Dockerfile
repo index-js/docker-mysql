@@ -1,4 +1,4 @@
-FROM alpine:3.8
+FROM dotcloudid/alpine:latest-stable
 
 LABEL maintainer="Yanglin <i@yangl.in>"
 LABEL from="https://wiki.alpinelinux.org/wiki/MariaDB"
