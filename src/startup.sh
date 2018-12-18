@@ -1,6 +1,8 @@
 #!/bin/sh
 # https://wiki.alpinelinux.org/wiki/MariaDB
 
+mysql_install_db > /dev/null
+
 [[ "$MYSQL_ROOT_PASSWORD" ]] && {
 
 cat > /tmpfile << EOF
