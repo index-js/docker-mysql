@@ -6,6 +6,7 @@ LABEL reference="https://docs.docker.com/develop/develop-images/dockerfile_best-
 
 
 RUN apk add --no-cache mariadb mariadb-client \
+    && rm -rf /var/lib/mysql \
     && rm -rf /var/cache/apk/*
 
 
